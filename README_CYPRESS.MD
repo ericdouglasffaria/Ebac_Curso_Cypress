@@ -19,7 +19,7 @@
 ## CONFIGURANDO UM DOCUMENTO DO CYPRESS.
 
 * Incluir a linha de Referencia no arquivo do Cypress.
- * - /// <reference types = "cypress"/>
+ * /// <reference types = "cypress"/>
 
 
 const { defineConfig } = require("cypress");
