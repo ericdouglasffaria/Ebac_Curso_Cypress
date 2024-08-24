@@ -1,7 +1,7 @@
 ## AUTOMATIZACAO DE API REST / CYPRESS
 ### USANDO O CYPRESS COMO O FRAMEWORK.
 
-## INTALANDO PROGRAMAS PARA USO DO CYPRESS.
+### INTALANDO PROGRAMAS PARA USO DO CYPRESS.
 
 * Instalando o Node JS
   * - link para instalação do Node JS.
@@ -19,27 +19,41 @@
   * - Cypress Snippets,
   * - ES6 Mocha Snippets,
 
-* Instalando o Cypress
- * - Criar um arquivo com `.gitignore` - node js.
- * - npm install cypress - Aqui instala a ultima versão.
- * - npm install cypress@13.0.6 - Aqui voce set uma versão.
-
-* inicializando o Cypress.
- * - npsx cypress open
+### INTALANDO AMBIENTE DO CYPRESS.
 
   * Criando um novo projeto no Cypress.
   * - npm init -y
 
-## SUBINDO O SERVIDOR SERVEREST
+* Instalando o Cypress
+ * - Criar um arquivo com `.gitignore` - node js.
+ * - npm install cypress
+ ou
+ * - npm install cypress@13.0.6
+
+* inicializando o Cypress.
+ * - npx cypress open
+ * - Template E2E Testing
+ * - Navegador Eletron
+ * - Scaffold example specs
+
+
+
+### CONFIGURANDO UM DOCUMENTO DO CYPRESS.
+
+* Incluir a linha de Referencia no arquivo do Cypress.
+ * /// <reference types = "cypress"/>
+
+
+
+
+
+### SUBINDO O SERVIDOR SERVEREST
 
 * Subindo o Serverest
  * - npx serverest
  * - http://localhost:3000
 
-## CONFIGURANDO UM DOCUMENTO DO CYPRESS.
 
-* Incluir a linha de Referencia no arquivo do Cypress.
- * /// <reference types = "cypress"/>
 
 
 const { defineConfig } = require("cypress");
